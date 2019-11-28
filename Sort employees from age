@@ -1,0 +1,14 @@
+var employees = [
+	{name:'aaa',age:30},
+	{name:'bbb',age:20},
+	{name:'ccc',age:50},
+	{name:'ddd',age:10}
+];
+
+var result = [];
+
+employees.sort(function(employeeFirst,employeeSecond){
+	return employeeFirst.age-employeeSecond.age;
+});
+
+console.log(employees);
